@@ -1,6 +1,6 @@
 {
   "name": "rainlink-apple",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A rainlink plugin that allows you to play music on apple",
   "main": "dist/index.js",
   "scripts": {
