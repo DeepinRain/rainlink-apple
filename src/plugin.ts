@@ -30,7 +30,7 @@ export type AppleOptions = {
 
 const credentials = {
 	APPLE_TOKEN:
-    'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNzEwNzg0MTQxLCJleHAiOjE3MTgwNDE3NDEsInJvb3RfaHR0cHNfb3JpZ2luIjpbImFwcGxlLmNvbSJdfQ.7VbsddF5LyEdvyjVK92TUZ4f9_UyM2He0jvL28YkgpKZIbyHhIJWkkKtd44g5mJwwt63cBoboDZ7kFGGhabb1Q',
+    'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNzEyOTY5NDQxLCJleHAiOjE3MjAyMjcwNDEsInJvb3RfaHR0cHNfb3JpZ2luIjpbImFwcGxlLmNvbSJdfQ.UFr00OkWHnwqPNAXOy5FospHFzX4_hjJU6H-WPU6dquP7KZE5Pe6_CukE3IbPi0EEfzHEvCYwkj84VjKAydnjA',
 };
 
 export class RainlinkPlugin extends SourceRainlinkPlugin {
@@ -300,7 +300,7 @@ export class RainlinkPlugin extends SourceRainlinkPlugin {
 	}
 
 	private debug(logs: string) {
-		this.manager ? this.manager.emit(RainlinkEvents.Debug, `[Rainlink Apple Plugin]: ${logs}`) : true;
+		this.manager ? this.manager.emit(RainlinkEvents.Debug, `[Rainlink] -> [Plugin] -> [Apple] | ${logs}`) : true;
 	}
 }
 
