@@ -290,6 +290,7 @@ export class RainlinkPlugin extends SourceRainlinkPlugin {
 					title: appleTrack.attributes.name,
 					uri: appleTrack.attributes.url || '',
 					artworkUrl: artworkURL ? artworkURL : '',
+					isrc: null,
 				},
 				pluginInfo: {
 					name: 'rainlink@apple',
